@@ -1,0 +1,13 @@
+# All microservices
+**/target/
+**/build/
+**/.idea/
+**/*.iml
+**/.DS_Store
+**/logs/
+**/HELP.md
+**/!.mvn/wrapper/maven-wrapper.jar
+
+# Keep these at root level if needed
+!.gitignore
+!README.md

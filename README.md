@@ -308,9 +308,11 @@ circuit-breaker-example/
 
 ```properties
 # Enable Feign circuit breaker (THIS IS CRITICAL!)
+
 spring.cloud.openfeign.circuitbreaker.enabled=true
 
 # Circuit breaker settings for Feign client
+
 resilience4j.circuitbreaker.instances.PaymentClientgetPaymentStatus.sliding-window-size=5
 resilience4j.circuitbreaker.instances.PaymentClientgetPaymentStatus.minimum-number-of-calls=5
 resilience4j.circuitbreaker.instances.PaymentClientgetPaymentStatus.failure-rate-threshold=50
